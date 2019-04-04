@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <title>Innleveringsoppgave framside</title>
 <link href="Innlevering_CSS.css" rel="stylesheet" type="text/css">
-<!--<meta name="viewport" content="width=device-width, initialscale=1">-->
+
+<meta name="viewport" content="width=device-width, initialscale=1">
 </head>
 
-<body id="body">
+<body>
 	<nav>
-		<a href="index.html" class="button" id="Button-framside">Framside</a>
+		<a href="Innlevering_framside.html" class="button" id="Button-framside">Framside</a>
 		<a href="Innlevering_side_2.html" class="button">Bilder</a>
 		<a href="Innlevering_side_3.html" class="button">Tabell</a>
 		<a href="Innlevering_side_4.html" class="button">Nyttige lenker</a>
@@ -36,7 +37,33 @@
 				<a href="Innlevering_side_6.html" id="link_chat">Chat med oss</a> 
 			</div>
 			<br>
-			<!--<button id="klikk_her" onClick="document.getElementById('body').style.transform.rotate='0.5turn'">Klikk her</button>-->
+			<div id="div_2">
+				<h4>Send inn bilde</h4>
+				<form id="skjema_2">
+					<input type="file" id="inpFil" required >
+					<input type="text" id="inpTekst" required placeholder="Beskriv bildet">
+					<div style="margin-top:20px"><input type="submit" id="knapp" value="Upload"></div>
+					<div id="info" style="margin-top:20px"></div>
+				</form> 
+				<div id="overlay">
+					<img src="Bilete/Spinner.gif" alt="Laster">
+				</div>
+				
+				<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+				<script>
+  				// Initialize Firebase
+  				var config = {
+					apiKey: "AIzaSyDO3S2AC_Fpk1HjI-xHxuMjgchznhKUhp0",
+					authDomain: "skryteprosjekt-2279c.firebaseapp.com",
+    				databaseURL: "https://skryteprosjekt-2279c.firebaseio.com",
+    				projectId: "skryteprosjekt-2279c",
+    				storageBucket: "skryteprosjekt-2279c.appspot.com",
+    				messagingSenderId: "682974331988"
+  				};
+  				firebase.initializeApp(config);
+				</script>
+				<script src="Innlevering_Javascript.js"></script>
+			</div>
 		</div>
 		<div class="middle-column">
 			<div>
@@ -56,8 +83,8 @@
 		</div>
 		<div>
 			<div class="right-column">
-				<div id="div_fakta">
-					<h4>Fakta om Leikanger</h4>
+				<div>
+					<h4>Lorem ipsum</h4>
 					<ul>
 						<li>Lorem ipsum</li>
 						<li>Lorem ipsum</li>
