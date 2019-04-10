@@ -196,9 +196,11 @@ h4{
 }
 .Lenker-nettsider {
 	color: #B8F562;
+	text-decoration: none;
 }
 .Lenker-nettsider:hover{
 	color: #51C029;
+	text-decoration: underline;
 }
 
 /*M*/
