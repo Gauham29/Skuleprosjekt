@@ -1,5 +1,9 @@
 @charset "utf-8";
 /*A*/
+#active-framside {
+	background-color: #148A8E;
+	color: #24C700;
+}
 
 /*B*/
 body{
@@ -7,6 +11,9 @@ body{
 	color: #ffffcc; /*offwhite*/
 	font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
 	margin: 0px;
+}
+#button-active {
+	background-color: #AF4811;
 }
 #button_chat {
 	background-color: #8B3A09;
@@ -186,6 +193,12 @@ h4{
 	padding: 4px;
 	border: 1.5px solid black;
 	border-radius: 5px;
+}
+.Lenker-nettsider {
+	color: #B8F562;
+}
+.Lenker-nettsider:hover{
+	color: #51C029;
 }
 
 /*M*/
@@ -400,3 +413,4 @@ th{
 		font-size: 22px;
 	}
 }
+
