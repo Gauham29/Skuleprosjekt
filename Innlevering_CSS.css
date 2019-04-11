@@ -393,6 +393,9 @@ th{
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 150px;
 	}
+	li{
+		font-size: 10px;
+	}
 }
 @media (max-width: 768px){
 	header{
@@ -427,6 +430,22 @@ th{
 	.main2{
 		grid-template-columns: repeat (2, 1fr);
 	}
+	#div_fakta{
+		width: 275px;
+	}
+	#div_lenker {
+		width: 275px;
+	}
+	.div_middle {
+		width: 275px;
+	}
+	.img-framside{
+		width: 100%;
+	}
 }
-.fa {
+@media (max-width: 1149px){
+	li{
+		font-size: 0.9em;
+	}
+	
 }
