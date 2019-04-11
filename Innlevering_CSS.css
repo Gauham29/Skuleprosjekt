@@ -268,7 +268,7 @@ main:after {
 /*N*/
 nav{
 	display: grid;
-	grid-template-columns: Repeat(5, 1fr);
+	grid-template-columns: Repeat(4, 1fr);
 	grid-template-rows: 40px;
 	margin: 0px;
 	background-color: #8B3A09; /*orange*/
