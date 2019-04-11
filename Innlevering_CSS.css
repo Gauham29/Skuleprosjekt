@@ -83,6 +83,10 @@ body{
 /*E*/
 
 /*F*/
+.Fakta {
+	list-style-type: none;
+	color: #F7F145; /*yellow*/
+}
 footer{
 	font-size: 12px;
 	text-align: center;
@@ -423,4 +427,6 @@ th{
 	.main2{
 		grid-template-columns: repeat (2, 1fr);
 	}
+}
+.fa {
 }
