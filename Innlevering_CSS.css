@@ -396,9 +396,6 @@ th{
 
 /*Media query*/
 @media (max-width: 1024px){
-	body{
-		background-color: #325C03
-	}
 	header{
 		min-height: 90vh;
 	}
@@ -470,7 +467,5 @@ th{
 		font-size: 0.9em;
 	}
 }
-
-
 .h1_5 {
 }
