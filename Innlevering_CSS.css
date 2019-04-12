@@ -118,13 +118,14 @@ Header{
 	background-size: 100% 100%;
 }
 h4{
-	margin: 10px 10px 10px 10px;
+	margin: 10px;
 }
 #h1_chat {
 	margin-left: 10px;
 }
 .h1{
 	margin-left: 10px;
+	color:#515151;
 }
 
 /*I*/
@@ -329,7 +330,8 @@ nav{
 	margin-left: 40px
 }
 #skjema{
-	background-color:#6A5E5E;
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	border: 1.5px solid black;
 	border-radius: 5px;
 	margin-left: 5px;
@@ -358,7 +360,8 @@ th{
 	border: 2px solid #6A5E5E; /*darkgrey*/
 }
 #txtMeldinger{
-	background-color:#6A5E5E;
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	border: 1.5px solid black;
 	border-radius: 5px;
 	width: auto;
