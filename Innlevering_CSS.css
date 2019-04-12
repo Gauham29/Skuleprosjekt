@@ -16,8 +16,8 @@ body{
 	background-color: #AF4811;
 }
 #button_chat {
-	background-color:#C9C2C2;
-	color:#605858;
+	background-color:#CACACA; /*lightgrey*/
+	color:#515151; /*darkgrey*/
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
@@ -37,15 +37,15 @@ body{
 	margin: 5px 10px ;
 	border-radius: 5px;
 	margin-left: 10px;
-	background-color:#C9C2C2;
-	color:#605858;
+	background-color:#CACACA; /*lightgrey*/
+	color:#515151; /*darkgrey*/
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
 	border: 1.5px solid black;
 }
 .button{
-	color:#605858; /*grey*/
+	color: #515151; /*grey*/
 	text-decoration: none;
 	display: inline-block;
 	font-size: 1em;
@@ -68,7 +68,8 @@ body{
 }
 #div_2 {
 	height: auto;
-	background-color: #6A5E5E; /*darkgrey*/
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	padding: 4px;
 	border: 1.5px solid black;
 	border-radius: 5px;
@@ -78,22 +79,21 @@ body{
 }
 #div_fakta {
 }
-.div_middle{
-	background-color: #515151;
-}
 
 /*E*/
 
 /*F*/
 .Fakta {
 	list-style-type: none;
-	color: #F7F145; /*yellow*/
+	color:#E2E2E2;
+	font-weight: bold;
 }
 footer{
 	font-size: 12px;
 	text-align: center;
 	padding: 10px;
-	background-color: #6A5E5E; /*darkgrey*/
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	position: bottom;
 }
 .Flex-container {
@@ -173,8 +173,8 @@ h4{
 }
 #knapp{
 	margin-left: 10px;
-	background-color: #8B3A09;
-	color: #D6D022;
+	background-color:#CACACA; /*lightgrey*/
+	color:#515151; /*darkgrey*/
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
@@ -184,8 +184,8 @@ h4{
 
 /*L*/
 #link_chat {
-	background-color:#C9C2C2;
-	color:#605858;
+	background-color:#CACACA; /*lightgrey*/
+	color:#515151; /*darkgrey*/
 	padding: 10px 5px;
 	text-decoration: none;
 	cursor: pointer;
@@ -196,17 +196,18 @@ h4{
 	width: 15%;
 }
 .left-column>div{
-	background-color: #6A5E5E; /*darkgrey*/
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	padding: 4px;
 	border: 1.5px solid black;
 	border-radius: 5px;
 }
 .Lenker-nettsider {
-	color: #B8F562;
+	color:#8EB68D;
 	text-decoration: none;
 }
 .Lenker-nettsider:hover{
-	color: #51C029;
+	color:#75C15A;
 	text-decoration: underline;
 }
 
@@ -261,8 +262,8 @@ main:after {
 	margin-bottom: 15px;
 	padding: 0px 10px;
 	border-radius: 10px;
-	background-color: aliceblue;
-	color: #2F2A2A; /*"black"*/
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	border: 3px solid black;
 	text-align: center;
 }
@@ -273,7 +274,7 @@ nav{
 	grid-template-columns: Repeat(4, 1fr);
 	grid-template-rows: 40px;
 	margin: 0px;
-	background-color:#C9C2C2; /*lightgrey*/
+	background-color:#CACACA; /*lightgrey*/
 	position: fixed;
 	width: 100%;
 }
@@ -310,7 +311,8 @@ nav{
 }
 .right-column>div{
 	min-height: 100px;
-	background-color: #6A5E5E; /*darkgrey*/
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	border-radius: 5px;
 	border: 1.5px solid black;
 	margin-bottom: 10px
@@ -318,8 +320,8 @@ nav{
 
 /*S*/
 #send_inn{
-	background-color:#C9C2C2;
-	color:#605858;
+	background-color:#CACACA; /*lightgrey*/
+	color:#515151; /*darkgrey*/
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
@@ -344,7 +346,8 @@ nav{
 table{
 	border: 1px solid #6A5E5E; /*darkgrey*/
 	border-collapse: collapse;
-	background-color: forestgreen;
+	background-color: #515151; /*darkgrey*/
+	color:#CACACA; /*lightgrey*/
 	margin: 0px 10px;
 }
 td{
