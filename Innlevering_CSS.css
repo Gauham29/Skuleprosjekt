@@ -13,7 +13,7 @@ body{
 	margin: 0px;
 }
 #button-active {
-	background-color: #AF4811;
+	background-color:#8A7F7F;
 }
 #button_chat {
 	background-color:#CACACA; /*lightgrey*/
@@ -54,7 +54,7 @@ body{
 	float: left;
 }
 .button:hover{
-	background-color:#8A7F7F ; /*darker grey*/
+	background-color:#8A7F7F; /*darker grey*/
 }
 
 /*C*/
@@ -124,8 +124,12 @@ h4{
 	margin-left: 10px;
 }
 .h1{
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 	color:#515151;
+}
+.h1_5 {
+	color: #515151; /*grey*/
+	margin-left: 10px;
 }
 
 /*I*/
@@ -262,10 +266,11 @@ main:after {
 	float: left;
 	width: 65%;
 	margin: 0px 15px;
+	
 }
 .middle-column>div{
 	margin-bottom: 15px;
-	padding: 0px 10px;
+	padding: 1px 10px;
 	border-radius: 10px;
 	background-color: #515151; /*darkgrey*/
 	color:#CACACA; /*lightgrey*/
@@ -301,6 +306,10 @@ nav{
 	}
 
 /*P*/
+#p_4 {
+	color: #515151; /*grey*/
+}
+
 /*Q*/
 
 /*R*/
@@ -460,4 +469,8 @@ th{
 	li{
 		font-size: 0.9em;
 	}
+}
+
+
+.h1_5 {
 }
