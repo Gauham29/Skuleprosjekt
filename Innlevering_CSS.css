@@ -345,7 +345,7 @@ nav{
 #skjema{
 	background-color: #515151; /*darkgrey*/
 	color:#CACACA; /*lightgrey*/
-	border: 1.5px solid black;
+	/*border: 1.5px solid black;*/
 	border-radius: 5px;
 	margin-left: 5px;
 	width: 350px;
@@ -375,11 +375,11 @@ th{
 #txtMeldinger{
 	background-color: #515151; /*darkgrey*/
 	color:#CACACA; /*lightgrey*/
-	border: 1.5px solid black;
+	/*border: 1.5px solid black;*/
 	border-radius: 5px;
 	width: auto;
 	height: auto;
-	padding-left: 10px;
+	padding: 10px;
 	margin-left: 5px;
 }
 .th-overskrift {
