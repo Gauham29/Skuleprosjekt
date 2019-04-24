@@ -7,7 +7,7 @@
 
 /*B*/
 body{
-	background-color:#E2DFDF; /*green*/
+	background-color:#E2DFDF; /*lightgray*/
 	color: #ffffcc; /*offwhite*/
 	font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
 	margin: 0px;
@@ -22,9 +22,12 @@ body{
 	text-align: center;
 	cursor: pointer;
 	padding: 5px 10px;
-	border: 1.5px solid black;
+	/*border: 1.5px solid black;*/
 	margin: 5px 10px;
 	border-radius: 5px;
+}
+#button_chat:hover{
+	background-color:#B7B7B7;
 }
 #Button-framside {
 	background-color:#595959; /*darkgrey*/
@@ -42,7 +45,10 @@ body{
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
-	border: 1.5px solid black;
+	/*border: 1.5px solid black;*/
+}
+#button_skjema:hover{
+	background-color:#B7B7B7;
 }
 .button{
 	color: #515151; /*grey*/
@@ -187,6 +193,9 @@ h4{
 	border: none;
 	border-radius: 5px;
 }
+#knapp:hover{
+	background-color:#B7B7B7;
+}
 
 /*L*/
 #link_chat {
@@ -196,6 +205,9 @@ h4{
 	text-decoration: none;
 	cursor: pointer;
 	border: 1.5px solid black;
+}
+#link_chat:hover{
+	background-color:#B7B7B7;
 }
 .left-column{
 	float: left;
@@ -341,6 +353,9 @@ nav{
 	cursor: pointer;
 	border: 1.5px solid black;
 	margin-left: 40px
+}
+#send_inn:hover{
+	background-color:#B7B7B7;
 }
 #skjema{
 	background-color: #515151; /*darkgrey*/
