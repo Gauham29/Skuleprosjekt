@@ -123,6 +123,9 @@ Header{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+h1{
+	
+}
 h4{
 	margin: 10px;
 }
@@ -130,8 +133,11 @@ h4{
 	margin-left: 10px;
 }
 .h1{
-	/*margin-left: 10px;*/
+	margin-left: 10px;
 	color:#515151;
+}
+.h1_4 {
+	color: #515151; /*grey*/
 }
 .h1_5 {
 	color: #515151; /*grey*/
@@ -484,3 +490,4 @@ th{
 }
 .h1_5 {
 }
+
