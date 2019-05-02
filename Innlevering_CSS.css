@@ -3,6 +3,7 @@
 #active-framside {
 	background-color:#444343;
 	color:#969696;
+	transition: 1s;
 }
 #active-framside:hover{
 	transform: rotateY(180deg);
@@ -17,6 +18,7 @@ body{
 }
 #button-active {
 	background-color:#8A7F7F;
+	transition: 1s;
 }
 #button-active:hover{
 	transform: rotateY(180deg);
@@ -31,6 +33,7 @@ body{
 	/*border: 1.5px solid black;*/
 	margin: 5px 10px;
 	border-radius: 5px;
+	transition: 1s;
 }
 #button_chat:hover{
 	background-color:#B7B7B7;
@@ -38,6 +41,7 @@ body{
 #Button-framside {
 	background-color:#595959; /*darkgrey*/
 	color:#BEBEBE; /*grey*/
+	transition: 1s;
 }
 #Button-framside:hover{
 	background-color:#444343; /*blue*/
@@ -53,6 +57,7 @@ body{
 	cursor: pointer;
 	/*border: 1.5px solid black;*/
 	border: none;
+	transition: 1s;
 }
 #button_skjema:hover{
 	background-color:#B7B7B7;
@@ -65,6 +70,7 @@ body{
 	text-align: center;
 	cursor: pointer;
 	float: left;
+	transition: 1s;
 }
 .button:hover{
 	background-color:#8A7F7F; /*darker grey*/
@@ -208,6 +214,7 @@ h4{
 	/*border: 1.5px solid black;*/
 	border: none;
 	border-radius: 5px;
+	transition: 1s;
 }
 #knapp:hover{
 	background-color:#B7B7B7;
@@ -222,6 +229,7 @@ h4{
 	cursor: pointer;
 	/*border: 1.5px solid black;*/
 	border-radius: 5px;
+	transition: 1s;
 }
 #link_chat:hover{
 	background-color:#B7B7B7;
@@ -240,6 +248,7 @@ h4{
 .Lenker-nettsider {
 	color:#8EB68D;
 	text-decoration: none;
+	transition: 1s;
 }
 .Lenker-nettsider:hover{
 	color:#75C15A;
@@ -273,6 +282,7 @@ main:after {
 	width: 150px;
 	height: 150px;
 	border-radius: 3px;
+	transition: 1s;
 }
 .main2 img:hover{
 	height: 400px;
@@ -371,7 +381,8 @@ nav{
 	/*border: 1.5px solid black;*/
 	border-radius: 5px;
 	border: none;
-	margin-left: 40px
+	margin-left: 40px;
+	transition: 1s;
 }
 #send_inn:hover{
 	background-color:#B7B7B7;
