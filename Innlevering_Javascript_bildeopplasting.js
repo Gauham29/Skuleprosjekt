@@ -6,19 +6,11 @@ const inpTekst = document.querySelector("#inpTekst");
 const skjema_2 = document.querySelector("#skjema_2");
 const overlay = document.querySelector("#overlay");
 const main = document.querySelector(".main2");
-const sokefelt = document.getElementById("sokefelt");
-            var soketekst ="";
 
 // Firebase
 const db = firebase.database();
 const storage = firebase.storage();
 const bloggen = db.ref("bloggen");
-
-// Sokefelt
-sokefelt.oninput = sok;
-            function sok () {
-                soketekst=sokefelt.value;
-				visUtvalg();
 
 // Funksjon som lagrer bilde i databasen
 function lagreBilde(evt) {
