@@ -272,21 +272,25 @@ main:after {
 }
 .main2{
 	color: white;
-	display: grid;				
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: auto;
-	grid-auto-rows: 200px;
-	padding-bottom: 225px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	/*grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(1fr) auto;*/
+	/*grid-auto-rows: 200px;*/
+	/*padding-bottom: 225px;*/
 }
 .main2 img{
 	width: 150px;
 	height: 150px;
 	border-radius: 3px;
 	transition: 1s;
+	margin: 50px;
 }
 .main2 img:hover{
 	height: 400px;
 	width: 400px;
+	margin: 10px;
 }
 .main2 p{
 	color: #313131;
