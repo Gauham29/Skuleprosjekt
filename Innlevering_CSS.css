@@ -294,6 +294,7 @@ main:after {
 }
 .main2 p{
 	color: #313131;
+	text-align: center;
 }
 /*.main2>div{
     resize: both;
