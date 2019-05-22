@@ -145,6 +145,10 @@ h4{
 #h1_chat {
 	margin-left: 10px;
 }
+#h1_framside {
+	margin-left: 25px;
+	color: #515151;
+}
 .h1{
 	margin-left: 10px;
 	color:#515151;
@@ -156,7 +160,6 @@ h4{
 	color: #515151; /*grey*/
 	margin-left: 10px;
 }
-
 /*I*/
 #inpAvsender{
 	width: 125px;
@@ -448,6 +451,35 @@ th{
 /*Z*/
 
 /*Media query*/
+
+/*max-width*/
+@media (max-width: 1500px){
+	.main2 img{
+		margin-right: 100px;
+	}
+}
+
+@media (max-width: 1360px){
+	.main2 img{
+		margin-right: 140px;
+	}
+}
+
+@media (max-width: 1155px){
+	footer{
+		margin-top: 10px; 
+	}
+}
+
+@media (max-width: 1149px){
+	li{
+		font-size: 0.9em;
+	}
+	.main2 img{
+		margin-left: 90px;
+	}
+}
+
 @media (max-width: 1024px){
 	header{
 		min-height: 90vh;
@@ -456,13 +488,29 @@ th{
 		width: 100px;
 	}
 	.main3 {
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: 150px;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: 150px;
+	}
+	li{
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 970px){
+	.main2 img{
+		margin-right: 190px;
+	}
+}
+
+@media (max-width: 860px){
+	.main3{
+		grid-template-rows: (4, 1fr);
 	}
 	li{
 		font-size: 10px;
 	}
 }
+
 @media (max-width: 768px){
 	header{
 		min-height: 70vh
@@ -480,15 +528,44 @@ th{
 	.right-column{
 	width: 30%;
 	}
+	li{
+		font-size: 16px;
+	}
 }
-@media (min-width: 770px){
-	.skjema_2{
+
+@media (max-width: 637px){
+	.right-column div{
+		width: 390px;
+		margin-left: 15px;
+	}
+	li{
+		font-size: 18px
+	}
+	.middle-column div{
+		width: 370px
+	}
+}
+
+@media (max-width: 590px){
+	.main2 img:hover{
+		width: 150px;
+		height: 150px;
+	}
+	header{
 		display: none;
 	}
-	.button{
-		font-size: 22px;
+	.div_middle{
+		margin-top: 20px;
+	}
+	h4{
+		font-size: 25px;
 	}
 }
+
+@media (max-width: 500px){
+	
+}
+
 @media (max-width: 375px){
 	.button{
 		font-size: 10px;
@@ -506,37 +583,21 @@ th{
 		width: 100%;
 	}
 }
-@media (max-width: 1149px){
-	li{
-		font-size: 0.9em;
+
+/*min-width*/
+@media (min-width: 770px){
+	.skjema_2{
+		display: none;
 	}
-	.main2{
-		margin-left: 180px;
+	.button{
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 590px){
+	#h1_framside{
+		display: none;
 	}
 }
 
 
-@media (max-width: 1500px){
-	.main2 img{
-		margin-left: 100px;
-	}
-}
-
-@media (max-width: 1360px){
-	.main2 img{
-		margin-left: 140px;
-	}
-}
-
-@media (max-width: 970px){
-	.main2 img{
-		margin-left: 190px;
-	}
-}
-
-@media (max-width: 590px){
-	.main2 img:hover{
-		width: 150px;
-		height: 150px;
-	}
-}
