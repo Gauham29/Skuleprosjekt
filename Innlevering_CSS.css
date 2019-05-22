@@ -519,7 +519,20 @@ th{
 	li{
 		font-size: 0.9em;
 	}
-}
-.h1_5 {
+	.main2 img{
+		margin-left: 160px;
+	}
 }
 
+
+@media (max-width: 1500px){
+	.main2 img{
+		margin-left: 100px;
+	}
+}
+
+@media (max-width: 1360px){
+	.main2 img{
+		margin-left: 140px;
+	}
+}
