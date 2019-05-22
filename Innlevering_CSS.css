@@ -455,12 +455,6 @@ th{
 	#input-text{
 		width: 100px;
 	}
-	.main2{
-	color: white;
-	display: grid;				
-	grid-template-columns: repeat(5, 1fr);
-	grid-auto-rows: 200px;
-	}
 	.main3 {
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 150px;
@@ -499,9 +493,6 @@ th{
 	.button{
 		font-size: 10px;
 	}
-	.main2{
-		grid-template-columns: repeat (2, 1fr);
-	}
 	#div_fakta{
 		width: 275px;
 	}
@@ -519,8 +510,8 @@ th{
 	li{
 		font-size: 0.9em;
 	}
-	.main2 img{
-		margin-left: 160px;
+	.main2{
+		margin-left: 180px;
 	}
 }
 
@@ -534,5 +525,18 @@ th{
 @media (max-width: 1360px){
 	.main2 img{
 		margin-left: 140px;
+	}
+}
+
+@media (max-width: 970px){
+	.main2 img{
+		margin-left: 190px;
+	}
+}
+
+@media (max-width: 590px){
+	.main2 img:hover{
+		width: 150px;
+		height: 150px;
 	}
 }
